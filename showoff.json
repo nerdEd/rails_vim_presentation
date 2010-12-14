@@ -1,3 +1,6 @@
-{   "name": "Rails.vim",
-    "sections": [ {"section":"intro"},
-                  {"section":"conclusion"}]}
+{   
+  "name": "Rails.vim",
+  "sections": [
+    {"section":"slides"}
+  ]
+}
