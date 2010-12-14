@@ -2,15 +2,24 @@ body {
   font-family: palatino, georgia;
 }
 
+* {
+  margin-left: 0;
+}
+
 h1 {
   color: #786e6e;
   font-family: palatino;
   font-size: 4em;
+  text-align: left;
 }
 
 h2 {
   color: #64c8ca;
   font-size: 3.5em;
+}
+
+h2, h3, h4 {
+  text-align: left;
 }
 
 h3 {
@@ -44,9 +53,18 @@ h4
   font-size: 25px;
 }
 
+.bullets ul {
+  margin-left: 10px;
+}
 ul ul li
 {
   font-size: 30px;
+}
+
+.bullets ul li {
+  text-align: left;
+  padding: 10px;
+ 
 }
 
 .smallcode code
