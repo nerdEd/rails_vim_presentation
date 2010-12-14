@@ -1,0 +1,56 @@
+body {
+  font-family: palatino, georgia;
+}
+
+h1 {
+  color: #786e6e;
+  font-family: palatino;
+  font-size: 4em;
+}
+
+h2 {
+  color: #64c8ca;
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.slide {
+  background-image: url('/image/sls-209x36.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.imgsize img
+{
+  width: 50%;
+}
+
+.largeimg img
+{
+  width: 75%;
+}
+
+.first h3
+{
+  margin-bottom: 50px;
+}
+
+h4
+{
+  text-align: center;
+  font-size: 25px;
+}
+
+ul ul li
+{
+  font-size: 30px;
+}
+
+.smallcode code
+{
+  font-size: 20px;
+}
+
