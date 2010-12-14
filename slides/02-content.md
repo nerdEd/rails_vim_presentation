@@ -17,6 +17,13 @@
 * ...
 
 !SLIDE bullets
+# Alternates to "R" commands
+
+* RT* - open file in new tab
+* RS* - open file in horizontal split
+* RV* - open file in vertical split
+
+!SLIDE bullets
 # File Creation
 
 * Any of the preceding navigation shortcuts can create files too.
