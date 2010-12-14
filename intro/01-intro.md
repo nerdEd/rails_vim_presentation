@@ -1,6 +1,6 @@
-!SLIDE
+!SLIDE bullets
 # Rails.vim
 
-### Chris Cahoon
-### Ed Schmalzle
-### SmartLogic Solutions
+* Chris Cahoon
+* Ed Schmalzle
+* SmartLogic Solutions

@@ -2,8 +2,8 @@
 # Basic Navigation in a Rails Application
 
 * :Rcontroller - jump to controller relevant to current context or specify
-** :Rcon widgets -> app/controllers/widgets_controller.rb
-** :Rcon (from a lot of shit) -> app/controllers/widgets_controller
+  * :Rcon widgets -> app/controllers/widgets_controller.rb
+  * :Rcon (from a lot of shit) -> app/controllers/widgets_controller
 
 * :Rmodel - second verse same as the first.
 
@@ -22,11 +22,11 @@
 * Any of the preceding navigation shortcuts can create files too.
 
 ## Example:
-### :Rmodel kate_moss!
+* :Rmodel kate_moss!
 
 !SLIDE bullets
 
-# :R - jump to a _related_file
+# :R - jump to a _related_ file
 
 * model <-> schema
 * controller <-> helper
@@ -42,24 +42,26 @@
 
 !SLIDE
 
-# gf for when c-tags is broken
+# `gf` for when c-tags is broken
 
 !SLIDE bullets
 
 # :Rake
 
-* Run `:Rake` to execute the whole of the current test or migration (from the 
+* `:Rake` executes the whole of the current test or migration (from the 
 test or the related model/controller)
 
-* Run `:.Rake` to run the test currently under the cursor (in specs/cukes)
+* `:.Rake` runs the test currently under the cursor (in specs/cukes)
 
-!SLIDE
+!SLIDE bullets
 
-# :Rinvert generate down migration after completing up
+# :Rinvert 
+* generate down migration from up
 
-!SLIDE 
+!SLIDE bullets
+# :Rextract
+* pull selected portion of view into named partial
 
-# :Rextract pull selected portion of view into named partial
-
-## Ex. :Rextract my_snippet -> generates app/views/widgets/_my_snippet.html.haml 
-and adds partial call to current view
+# :'<,'>Rextract snip
+* generates `app/views/widgets/_snip.html.haml`
+* selection =>  `= render :partial => 'snip'`
