@@ -53,6 +53,15 @@
 
 !SLIDE bullets
 
+# OK maybe gf is better than just that...
+
+* jump to a partial from a reference in a view
+* jump to a required file
+* jump to ANY referenced file from... anywhere (docs, html, whatev.)
+* jump to constant def
+
+!SLIDE bullets
+
 # :Rake
 
 * `:Rake` executes the whole of the current test or migration (from the 
@@ -72,3 +81,9 @@ test or the related model/controller)
 # :'<,'>Rextract snip
 * generates `app/views/widgets/_snip.html.haml`
 * selection =>  `= render :partial => 'snip'`
+
+!SLIDE 
+
+# Guess.
+
+## Rails.vim is fairly intuitive once you get your head around the basics. If you think it might do something, try it. It might just work.
