@@ -1,9 +1,9 @@
 !SLIDE bullets
 # Basic Navigation in a Rails Application
 
-* :Rcontroller - jump to controller relevant to current context or specify
+* :Rcontroller - jump to related or specified controller
   * :Rcon widgets -> app/controllers/widgets_controller.rb
-  * :Rcon (from a lot of shit) -> app/controllers/widgets_controller
+  * :Rcon (from related files) -> app/controllers/widgets_controller
 
 * :Rmodel - second verse same as the first.
 
