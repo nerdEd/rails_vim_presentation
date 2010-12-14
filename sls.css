@@ -2,14 +2,14 @@ body {
   font-family: palatino, georgia;
 }
 
-* {
-  margin-left: 0;
-}
-
 h1 {
   color: #786e6e;
   font-family: palatino;
   font-size: 4em;
+  text-align: left;
+}
+
+h2, h3, h4 {
   text-align: left;
 }
 
@@ -18,12 +18,13 @@ h2 {
   font-size: 3.5em;
 }
 
-h2, h3, h4 {
-  text-align: left;
-}
-
 h3 {
   font-size: 3em;
+}
+
+h4 {
+  text-align: center;
+  font-size: 25px;
 }
 
 .slide {
@@ -32,43 +33,15 @@ h3 {
   background-position: right bottom;
 }
 
-.imgsize img
-{
-  width: 50%;
-}
-
-.largeimg img
-{
-  width: 75%;
-}
-
-.first h3
-{
-  margin-bottom: 50px;
-}
-
-h4
-{
-  text-align: center;
-  font-size: 25px;
-}
-
 .bullets ul {
   margin-left: 10px;
 }
-ul ul li
-{
+
+ul ul li {
   font-size: 30px;
 }
 
 .bullets ul li {
   text-align: left;
   padding: 10px;
- 
 }
-
-.smallcode code
-{
-  font-size: 20px;
-}
-
