@@ -1,5 +1,5 @@
 !SLIDE bullets
-# Rails.vim
+# Rails.vim by Tim Pope (@tpope)
 
 * Chris Cahoon
 * Ed Schmalzle
